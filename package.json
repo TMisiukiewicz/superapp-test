@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "workspaces": ["packages/*"],
+    "scripts": {
+        "start:demoApp1": "yarn workspace demoApp1 run start",
+        "start:demoApp2": "yarn workspace demoApp2 run start",
+        "run:demoApp1:ios": "yarn workspace demoApp1 run ios",
+        "run:demoApp1:android": "yarn workspace demoApp1 run android",
+        "run:demoApp2:ios": "yarn workspace demoApp2 run ios",
+        "run:demoApp2:android": "yarn workspace demoApp2 run android"
+    }
+} 
